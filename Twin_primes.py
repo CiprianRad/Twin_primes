@@ -37,7 +37,7 @@ def main():
     next_prime_2 = get_next_prime(next_prime_1)
     while next_prime_2 - next_prime_1 != 2:
         next_prime_1 = next_prime_2
-        next_prime_2 =  get_next_prime(next_prime_1)
+        next_prime_2 = get_next_prime(next_prime_1)
 
     print("the twin primes are: ", next_prime_1, "and", next_prime_2)
 
